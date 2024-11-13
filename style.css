@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.subone{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.icon{
+    display: flex;
+    padding: 10px;
+}
+
+.family{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+input{
+    padding: 2px 100px;
+    border: none;
+    height: 30px;
+}
+.next{
+    display: flex;  
+    gap: 20px;
+    padding: 10px;
+}
+
+.btn{
+    gap: 20px;
+    padding: 10px;
+}
+
+button.bp{
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+button.sw{
+    justify-content: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.kk{
+    padding: 20px ;
+}
+
+.subtwo{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    gap: 50px;
+    padding: 10px 10px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.s1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-around;
+    justify-items: center;
+ }
+
+ .move{
+    display: flex;
+    gap: 300px;
+    padding: 20px 50px;
+ }
+
+ .otilo{
+    display: flex;
+    gap: 10px;
+ }
+
+ .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+    gap: 50px 20px;
+    padding: 10px 20px;
+    height: 500vh;
+    justify-content: space-between;
+}
+
+ .one{
+    background-image: url(pic/1.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+ }
+ 
+ .two{
+     background-image: url(pic/2.jpg);
+     background-size: cover;
+     padding: 20px;
+    border-radius: 5px;
+ }
+ 
+ 
+ .three{
+     background-image: url(pic/4.jpg);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .A{
+     background-image: url(pic/5.png);
+     background-size: cover;
+     padding: 20px;
+    border-radius: 5px;
+ }
+ 
+ .b{
+     background-image: url(pic/6.jpg);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .c{
+     background-image: url(pic/7.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .d{
+     background-image: url(pic/w.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .e{
+     background-image: url(pic/8.jpg);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .f{
+     background-image: url(pic/9.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .g{
+     background-image: url(pic/10.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .h{
+     background-image: url(pic/11.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .i{
+     background-image: url(pic/12.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .j{
+     background-image: url(pic/13.jpg);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .k{
+     background-image: url(pic/14.jpg);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .l{
+     background-image: url(pic/15.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .m{
+     background-image: url(pic/16.jpg);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .n{
+     background-image: url(pic/17.png);
+     background-size: cover;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ 
+ .p{
+    background-image: url(pic/24.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+ }
+
+ .container img{
+    border-radius: 100%;
+}
+
+.container p{
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 240px;
+    left: 0;
+}
+
+@media (max-width: 880px){
+    .next{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+
+    .ham{
+        display: block;
+    }
+
+    nav{
+        padding: 10px;
+    }
+
+    .s1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10px 10px 10px;
+    }
+
+    .otilo{
+        display: none;
+    }
+
+    p{
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+        
+    .one{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .two{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .three{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .A{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .b{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .c{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .d{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .e{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .f{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .g{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .h{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .i{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .j{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .k{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .l{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .m{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .n{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .o{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+    .p{
+        height: 40vh;
+        p{
+            display: none;
+        }
+    }
+
+}
